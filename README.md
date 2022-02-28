@@ -6,3 +6,4 @@ samples come from :
 - https://www.roguelynn.com/words/asyncio-we-did-it-wrong/
 - https://realpython.com/python-gil/
 - https://github.com/bfortuner/ml-study/blob/master/multitasking_python.ipynb
+- https://www.programiz.com/python-programming/generator
