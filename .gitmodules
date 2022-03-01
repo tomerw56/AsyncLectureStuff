@@ -1,0 +1,3 @@
+[submodule "mayhem"]
+	path = mayhem
+	url = https://github.com/econchick/mayhem.git
