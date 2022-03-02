@@ -1,0 +1,4 @@
+this is done on the VENV
+1/ install using :pip install snakeviz
+2/ genrate report :python -m cProfile -o visualize.prof UseCProfileUiVisulaizer.py
+3/ view report :snakeviz visualize.prof
