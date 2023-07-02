@@ -1,3 +1,6 @@
 [submodule "mayhem"]
 	path = mayhem
 	url = https://github.com/econchick/mayhem.git
+[submodule "testing/demo"]
+	path = testing/demo
+	url = https://github.com/nchazin/pycon2019.git

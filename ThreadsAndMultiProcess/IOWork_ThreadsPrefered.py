@@ -12,7 +12,7 @@ def io_heavy(text,base):
     return start,stop
 
 if __name__ == '__main__':
-    TEXT_SIZE=10**10
+    TEXT_SIZE=10000000
     N=12
     TEXT = ''.join(random.choice(string.ascii_lowercase) for i in range(TEXT_SIZE))
 

@@ -10,17 +10,6 @@ def none_stop_random_numbers():
     while True:
         yield random.randint(0,100)
 
-def fibonacci_numbers(nums):
-    x, y = 0, 1
-    for _ in range(nums):
-        x, y = y, x + y
-        yield x
-
-
-def square(nums):
-    print (f"Recived {nums} - it is a genrator")
-    for num in nums:
-        yield num ** 2
 
 
 if __name__ == '__main__':
@@ -47,7 +36,3 @@ if __name__ == '__main__':
     for item in a:
         print(f"a is {item}")
 
-    #joining generators
-
-
-    print(sum(square(fibonacci_numbers(10))))
